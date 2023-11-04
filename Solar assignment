@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>US Solar Industry News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 10px;
+        }
+
+        .breaking-news {
+            background-color: #ff9933;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .featured-stories {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .news-categories {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>US Solar Industry News Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Solar Technology</a></li>
+            <li><a href="#">Market Trends</a></li>
+            <li><a href="#">Policy & Regulation</a></li>
+            <li><a href="#">Companies</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="breaking-news">
+        <h2>Breaking News</h2>
+        <p><a href="#">Important headline goes here</a></p>
+    </div>
+    <div class="featured-stories">
+        <h2>Featured Stories</h2>
+        <p><a href="#">Featured Story 1</a></p>
+        <p><a href="#">Featured Story 2</a></p>
+        <p><a href="#">Featured Story 3</a></p>
+    </div>
+    <div class="news-categories">
+        <h2>News Categories</h2>
+        <!-- You can list news articles by categories here -->
+    </div>
+    <footer>
+        <p>&copy; 2023 US Solar Industry News</p>
+    </footer>
+</body>
+</html>
